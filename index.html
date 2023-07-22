@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Box - Model</title>
+<style>
+
+h1{
+  text-align:center;
+  font-size:50px;
+  background-color: aqua;
+  width: 600px;
+  border: 50px solid black;
+  padding: 50px;
+  margin: 50px;
+}
+h2{
+  text-align:center;
+  font-size:50px;
+  background-color: aqua;
+  width: 350px;
+  border: 15px solid black;
+  padding: 40px;
+  margin: 0px;
+}
+h3{
+  text-align:center;
+  font-size:50px;
+  background-color: aqua;
+  width: 350px;
+  border: 0px;
+  padding: 40px;
+  margin: 40px;
+}
+h4{
+  text-align:center;
+  font-size:50px;
+  background-color: aqua;
+  width: 350px;
+  border: 15px solid black;
+  padding: 0px;
+  margin: 40px;
+}
+p,h5{
+font-family:arial;
+  font-size:30px;
+  font-weight:500;
+}
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+
+p.ex2 {
+  border: 1px solid black;
+  outline-style: dotted;
+  outline-color: red;
+  outline-width: medium;
+}
+
+p.ex3 {
+  border: 1px solid black;
+  outline-style: outset;
+  outline-color: red;
+  outline-width: thick;
+}
+
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 10px;
+}
+p.ex5 {outline: dashed;}
+p.ex6 {outline: dotted red;}
+p.ex7 {outline: 5px solid yellow;}
+p.ex8 {outline: thick ridge pink;}
+
+p.ex9 {
+  margin: 30px;
+  background:yellow;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 25px;
+}
+.moon{
+text-align:center;
+color:red;
+<!-- width:300; -->
+border:10px solid red;
+background-color:lightgray;
+padding:10px 15px;
+margin:20px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is Content area</h1>
+<p>600px width + 100px padding + 100px border + 100px margin = 750px total width</p>
+<hr>
+<h2>0 - margin</h1>
+<h3>0 - border</h3>
+<h4>0 - padding</h4>
+
+<hr>
+
+<p class="moon">This is Content area</p>
+
+<h5>The outline-width Property</h5>
+
+<p class="ex1">A thin outline.</p>
+<p class="ex2">A medium outline...outline-style: dotted;</p>
+<p class="ex3">A thick outline...outline-style: outset;</p>
+<p class="ex4">A 10px thick outline...outline-style: solid;</p>
+
+<hr>
+
+<h5>Outline - Shorthand property</h5>
+
+<p class="ex5">outline: dashed;</p>
+<p class="ex6">outline: dotted red;</p>
+<p class="ex7">outline: 5px solid yellow;</p>
+<p class="ex8">outline: thick ridge pink;</p>
+
+<hr>
+
+<h5>The outline-offset Property</h5>
+
+<p class="ex9">This paragraph has an outline of 25px outside the border edge.</p>
+
+</body>
+<html>
